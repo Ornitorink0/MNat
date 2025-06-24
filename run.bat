@@ -1,0 +1,13 @@
+@echo off
+if "%1" == "clean" (
+    echo Cleaning virtual environment...
+    rmdir /s /q .\venv
+    echo Cleaned virtual environment.
+) else (
+    echo Creating virtual environment...
+    python -m venv .\venv
+    echo Installing dependencies...
+    .\venv\Scripts\pip.exe install -r requirements.txt
+    echo Starting application...
+    .\venv\Scripts\python.exe src\app.py
+)

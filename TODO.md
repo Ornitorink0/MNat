@@ -1,0 +1,1 @@
+1. Forniti i MAC address, cerca la porta dello switch (indirizzo ip dello switch con porta)

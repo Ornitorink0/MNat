@@ -1,3 +1,7 @@
 venv/
 __pycache__
 .log
+app.spec
+dist/
+build/
+.mnat_prompt_history
